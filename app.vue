@@ -5,13 +5,13 @@ The NuxtPage is where the actual page is inserted, depending on that url the use
 
 <template>
 	<div class="h-screen overflow-x-hidden bg-background">
-		<title>AnarchyChess</title>
+		<title>Pepe Coin Service</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link href="https://fonts.cdnfonts.com/css/youtube-sans" rel="stylesheet" />
 
 		<div v-if="loading" class="fixed inset-0 flex items-center justify-center">
 			<div class="animate-spin">
-				<img src="~/assets/images/martin.png" width="200"/>
+				<img src="~/assets/images/pepe.png" width="200"/>
 			</div>
 		</div>
 
@@ -25,11 +25,11 @@ The NuxtPage is where the actual page is inserted, depending on that url the use
 	const nuxtApp = useNuxtApp();
 
 	useHead({
-		title: "AnarchyChess",
+		title: "Pepe Coin Service",
 		meta: [
 			{
 				name: "description",
-				content: "The official AnarchyChess website - explore current events, our chess history, puzzles and more!",
+				content: "Dedicated service to verify a coin's grade with pictures of autistic frogs",
 			},
 			{
 				name: "google-site-verification", 
